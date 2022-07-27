@@ -1,0 +1,48 @@
+main{
+    width: 50%;
+    margin: auto;
+    font-family: monospace;
+}
+
+.header-section p, .footer-section p, button.finish-button{
+    padding: 20px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+.header-section p{
+    background-color: #fecc00;
+}
+
+.footer-section p{
+    background-color: #333;
+    color: #fff;
+}
+
+.list{
+    padding: 0px;
+}
+
+.list li{
+    list-style: none;
+    padding: 20px;
+    background-color: #eee;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+button.finish-button{
+    width: 100%;
+    background-color: #FEE57F;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+button.finish-button:hover{
+    background-color: #e4b700;
+}
+
+.f-right{
+    float: right;
+}
